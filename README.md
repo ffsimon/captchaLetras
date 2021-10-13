@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Para importar el captcha.js
+1.- instalar: npm i --save-dev @types/node
+2.- Agregar el complemento de "node" en el archivo tsconfig.app.json "compilerOptions => types: ["node"]"
